@@ -1,7 +1,8 @@
 import logging
+import aexpect
 from autotest.client.shared import error, utils
 from virttest import utils_test
-from virttest import virt_vm, aexpect, remote
+from virttest import virt_vm, remote
 from virttest.libvirt_xml import vm_xml
 
 
